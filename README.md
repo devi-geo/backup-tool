@@ -1,2 +1,15 @@
-# backup-tool
-a backup tool for backuping your files\folders! Writen in python
+# Simple Backup Tool
+
+Простая утилита для создания бэкапов на Python
+
+## Возможности
+- Создание полных бэкапов
+- ZIP-архивация
+
+## Установка
+1. Скачайте `backup_tool.exe` из раздела Releases
+2. Переместите его в пустую папку, например D:\backup-util
+3. Добавьте эту папку в PATH
+4. Перезапустите терминал
+5. Наслаждайтесь!
+   
