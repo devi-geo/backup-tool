@@ -13,7 +13,7 @@ def create_backup(source_dir, backup_dir):
         backup_name = f"backup_{timestamp}"
         backup_path = os.path.join(backup_dir, backup_name)
 
-        # Копируем файлы
+        ## Копируем файлы
         shutil.copytree(source_dir, backup_path)
         print(f"✅ Бэкап создан: {backup_path}")
 
